@@ -1,0 +1,26 @@
+{
+  "name": "all_around_scroller",
+  "version": "1.0.0",
+  "description": "This is my gulp file",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sunouchi",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync ": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-pleeease": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-plumber": "*",
+    "gulp-htmlhint": "*",
+    "gulp-jshint": "*",
+    "gulp-sftp": "*",
+    "gulp-coffee": "*",
+    "coffee-script": "*",
+    "gulp-uglify": "*"
+  }
+}

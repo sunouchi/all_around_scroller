@@ -1,0 +1,44 @@
+@import '../bower_components/normalize-scss/normalize';
+
+body {
+  // background: #f00;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  left: 20px;
+  padding: 20px;
+  position: fixed;
+  top: 20px;
+  width: 260px;
+
+  h1 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.div-wrapper {
+  width: 3000px;
+
+  div {  
+    float: left;
+    width: 1000px;
+    height: 1000px;
+  }
+}
+
+.div-l1-r1 { background: #f00; }
+.div-l1-r2 { background: #0f0; }
+.div-l1-r3 { background: #00f; }
+.div-l2-r1 { background: #0f0; }
+.div-l2-r2 { background: #00f; }
+.div-l2-r3 { background: #f00; }
+.div-l3-r1 { background: #00f; }
+.div-l3-r2 { background: #f00; }
+.div-l3-r3 { background: #0f0; }
