@@ -6,26 +6,20 @@
   <title>all_around_scroller</title>
   <link rel="stylesheet" href="css/style.min.css">
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/jquery-mousewheel/jquery.mousewheel.min.js"></script>
   <script type="text/javascript" src="bower_components/jquery.lazyload/jquery.lazyload.js"></script>
-  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="bower_components/modernizr/modernizr.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
   <header class="header">
     <h1>All Around Scroller</h1>
+    <div class="test"></div>
   </header>
-
-  <div class="div-wrapper">
-    <div class="div-l1-r1"></div>
-    <div class="div-l1-r2"></div>
-    <div class="div-l1-r3"></div>
-
-    <div class="div-l2-r1"></div>
-    <div class="div-l2-r2"></div>
-    <div class="div-l2-r3"></div>
-
-    <div class="div-l3-r1"></div>
-    <div class="div-l3-r2"></div>
-    <div class="div-l3-r3"></div>    
+  <!-- <div class="animation-test"></div> -->
+  <div class="container js-container">
+    <ul class="thumb-list js-thumb-list">
+    </ul>
   </div>
 </body>
 </html>

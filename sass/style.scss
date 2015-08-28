@@ -23,28 +23,6 @@ body {
   }
 }
 
-.div-wrapper {
-  width: 3000px;
-
-  div {  
-    float: left;
-    width: 1000px;
-    height: 1000px;
-  }
-}
-
-.div-l1-r1 { background: #f00; }
-.div-l1-r2 { background: #0f0; }
-.div-l1-r3 { background: #00f; }
-.div-l2-r1 { background: #0f0; }
-.div-l2-r2 { background: #00f; }
-.div-l2-r3 { background: #f00; }
-.div-l3-r1 { background: #00f; }
-.div-l3-r2 { background: #f00; }
-.div-l3-r3 { background: #0f0; }
-
-
-// .index2.html
 .container {
   width: 100%;
   overflow: hidden;
@@ -57,7 +35,7 @@ body {
 }
 
 .thumb-items {
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,.8);
   list-style: none;
   height: 200px;
   margin: 0;
